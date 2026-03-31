@@ -1,0 +1,38 @@
+# NiFi
+conf/
+flow.xml.gz
+flow.json.gz
+database_repository/
+flowfile_repository/
+content_repository/
+provenance_repository/
+state/
+
+# NiFi Registry
+flow_storage/
+database/
+extensions/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+*.tmp
+*.bak
+
+# Database
+*.db
+
+# Large Files
+*.zip
+*.tar
+*.gz
